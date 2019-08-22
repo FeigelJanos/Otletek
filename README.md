@@ -1,7 +1,12 @@
 # Otletek
 
--Pokemon Gameboy szerű felülnézetes 2D játék
--Projekt szervező alkalmazás
--Facebook klón
--Saját felület szerepjátékozáshoz (Roll 20 klón)
--Online egyetem
+
+
+actionEnter = (e) => {
+		
+		if (e.key === "Enter") {
+			e.preventDefault();
+			console.log('it is a terrible ENTER...');
+			// this.handleClickSearch();
+		}
+	}
